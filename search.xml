@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[mysql_jdbc]]></title>
+    <url>%2F2018%2F04%2F28%2Fmysql-jdbc%2F</url>
+    <content type="text"><![CDATA[autoReconnect 当数据库连接丢失时是否自动连接，取值true/false false maxReconnects 如果autoReconnect为true,此参数为重试次数，缺省为3次 3 initialTimeout 如果autoReconnect为true,此参数为重新连接前等待的秒数 2 maxRows 设置查询时返回的行数，0表示全部 0 useUnicode 是否使用unicode输出，true/falsefalse characterEncoding 如果useUnicode,该参数制定encoding类型，建议使用utf8 无 createDatabaseIfNotExist 当JDBC连接指定数据库,如果此数据库不存在,此参数值为true时，则自动创建此数据库 jdbc:mysql://localhost:3306/hello_mysql? createDatabaseIfNotExist=true&amp; amp;useUnicode=true&amp; amp;characterEncoding=utf8&amp; amp;autoReconnect=true&amp; amp;useLocalSessionState=true]]></content>
+      <categories>
+        <category>技术文档</category>
+      </categories>
+      <tags>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F04%2F16%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
